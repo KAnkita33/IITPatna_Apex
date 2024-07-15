@@ -17,6 +17,7 @@ Ensure Python and Django are installed. Create a virtual environment if desired.
 
 ### Database Setup:
 Run the following commands to set up the database (delete db.sqlite3 to avoid any errors):
+
         python manage.py makemigrations
         python manage.py migrate
         python manage.py createsuperuser
